@@ -1,6 +1,6 @@
 #include "qlbackground.h"
 #include "ui_qlbackground.h"
-#include <QtGui/QDesktopWidget>
+#include <QDesktopWidget>
 
 qlBackground::qlBackground(QWidget *parent) :
     QFrame(parent, Qt::Window | Qt::X11BypassWindowManagerHint),

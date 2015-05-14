@@ -1,6 +1,6 @@
 #include "qlhelp.h"
 #include "ui_qlhelp.h"
-#include <QtGui/QDesktopWidget>
+#include <QDesktopWidget>
 
 #include <iostream>
 

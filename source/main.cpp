@@ -1,4 +1,4 @@
-#include <QtGui/QApplication>
+#include <QApplication>
 #include "qtlogout.h"
 #include "qlbackground.h"
 
