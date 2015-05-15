@@ -2,17 +2,18 @@
 #define QLBACKGROUND_H
 
 #include <QFrame>
+#include <QDesktopWidget>
 
 namespace Ui {
     class qlBackground;
 }
 
-class qlBackground : public QFrame
-{
-    Q_OBJECT
+class qlBackground : public QFrame {
+Q_OBJECT
 
 public:
     explicit qlBackground(QWidget *parent = 0);
+
     ~qlBackground();
 
 private:
