@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QDesktopWidget>
+#include <LXQt/lxqtpower.h>
 
 #include "commands.h"
 #include "qlhelp.h"
@@ -37,6 +38,7 @@ private slots:
 
 private:
     Ui::qtLogout *ui;
+    LxQt::Power *power;
 };
 
 #endif // QTLOGOUT_H

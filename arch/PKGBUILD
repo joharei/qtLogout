@@ -1,13 +1,13 @@
 # Maintainer: Johan Reitan <johan.reitan@gmail.com>
 pkgname=qtlogout-git
 _pkgname=qtLogout
-pkgver=r9.2b18a1c
+pkgver=r10.d018bcd
 pkgrel=1
 pkgdesc="Qt exit app for openbox, compiz, pekwm, etc."
 arch=('i686' 'x86_64')
 url="https://github.com/joharei/qtLogout"
 license=('GPL3')
-depends=('qt5-base')
+depends=('qt5-base' 'liblxqt')
 makedepends=('git' 'cmake')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")

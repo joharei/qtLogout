@@ -37,6 +37,9 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5Widgets REQUIRED)
 #find_package(Qt5Test REQUIRED)
 
+find_package(LXQT REQUIRED)
+include(${LXQT_USE_FILE})
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 # Testing configuration
