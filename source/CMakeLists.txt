@@ -25,6 +25,7 @@ qt5_add_resources(RESOURCE_FILES res.qrc)
 
 add_executable(${CMAKE_PROJECT_NAME} WIN32
   ${UI_HEADERS}
+  commands.h
   ${CODE_FILES}
   ${RESOURCE_FILES}
 )

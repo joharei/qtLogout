@@ -2,20 +2,25 @@
 #define QTLOGOUT_H
 
 #include <QMainWindow>
+#include <QDesktopWidget>
+
+#include "commands.h"
+#include "qlhelp.h"
 
 namespace Ui {
     class qtLogout;
 }
 
-class qtLogout : public QMainWindow
-{
-    Q_OBJECT
+class qtLogout : public QMainWindow {
+Q_OBJECT
 
 public:
     explicit qtLogout(QWidget *parent = 0);
+
     ~qtLogout();
 
 private slots:
+
     void on_logout_btn_clicked();
 
     void on_reboot_btn_clicked();

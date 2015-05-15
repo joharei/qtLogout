@@ -1,11 +1,12 @@
-<RCC>
-    <qresource prefix="/images/buttons">
-        <file>shutdown.png</file>
-        <file>logout.png</file>
-        <file>reboot.png</file>
-        <file>suspend.png</file>
-        <file>cancel.png</file>
-        <file>about.png</file>
-        <file>hibernate.png</file>
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>../icons/help-about.png</file>
+        <file>../icons/system-hibernate.jpg</file>
+        <file>../icons/system-logout.jpg</file>
+        <file>../icons/system-reboot.jpg</file>
+        <file>../icons/system-shutdown.jpg</file>
+        <file>../icons/system-suspend.jpg</file>
+        <file>../icons/window-close.png</file>
     </qresource>
 </RCC>
